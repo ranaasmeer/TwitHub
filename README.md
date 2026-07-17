@@ -1,4 +1,4 @@
-![Twitter Clone Homepage](screenshots/Screenshot%20(940).png)
+
 # 🐦 TwitHub
 
 > Tweet. Reel. Connect. 🚀
@@ -71,12 +71,15 @@ User blocking capability
 - Composer
 - FFmpeg
 
+### Home
+![Twitter Clone Homepage](screenshots/Screenshot%20(940).png)
+### Profile 
 ![Twitter Clone Homepage](screenshots/Screenshot%20(941).png)
-
+### Explore
 ![Twitter Clone Homepage](screenshots/Screenshot%20(942).png)
-
+### Reels 
 ![Twitter Clone Homepage](screenshots/Screenshot%20(944).png)
-
+### Messages
 ![Twitter Clone Homepage](screenshots/Screenshot%20(946).png)
 
 👨‍💻 Author
