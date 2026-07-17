@@ -1,0 +1,49 @@
+/* admin/assets/css/admin.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+  --bg:#f4f6f8;
+  --card:#fff;
+  --accent:#1d9bf0;
+  --muted:#6b7280;
+  --danger:#ef4444;
+}
+
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:#111}
+.container{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+
+/* login card */
+.card{
+  width:420px;
+  max-width:92%;
+  background:var(--card);
+  padding:28px;
+  border-radius:10px;
+  box-shadow:0 8px 30px rgba(16,24,40,0.08);
+}
+.logo{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.logo .brand{font-weight:700;color:var(--accent);font-size:20px}
+.card h2{margin:0 0 12px;font-size:20px}
+.form-group{margin-bottom:12px}
+.form-control{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid #e6e9ee;
+  border-radius:8px;
+  font-size:14px;
+}
+.btn{
+  display:inline-block;
+  background:var(--accent);
+  color:#fff;
+  padding:10px 16px;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+  border:0;
+}
+.small{font-size:13px;color:var(--muted)}
+.alert{padding:10px;border-radius:8px;background:#fff3f2;border:1px solid #ffd2cf;color:var(--danger);margin-bottom:12px}
+
+
