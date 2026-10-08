@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../core/init.php';
 
-// ✅ Check if user came from blocked redirect
+//  Check if user came from blocked redirect
 if(isset($_SESSION['login_error'])) {
     $blockError = $_SESSION['login_error'];
     unset($_SESSION['login_error']);
