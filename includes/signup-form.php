@@ -10,12 +10,12 @@ function sendVerificationCode($email, $code) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'bebantest@gmail.com';
-        $mail->Password = 'cvdp kiir bigt mtcq';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('bebantest@gmail.com', 'Twitter Clone');
+        $mail->setFrom('', 'Twitter Clone');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
